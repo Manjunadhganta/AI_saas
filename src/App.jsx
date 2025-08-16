@@ -23,6 +23,7 @@ const App = () => {
           <Route path='remove-object' element={<RemoveObject />}/>
           <Route path="review-resume" element={<ReviewResume />} />
           <Route path="community" element={<Community />} />
+          <Route path="blog-titles" element={<BlogTitles />} />
         </Route>
       </Routes>
     </div>
